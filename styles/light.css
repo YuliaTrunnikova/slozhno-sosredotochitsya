@@ -2,7 +2,7 @@
   --accentColor: #ff8dcb;
   --accentColorWithBackground: #353430;
   --titleColor: #ffc2e6;
-  --titleShadowColor: #ff0070;
+  --titleShadowColor: #FF8DCB;
   --textColor: #353430;
   --buttonHoverColor: #32312d66;
   --focusColor: #353430;
@@ -13,12 +13,21 @@
   --decorColor: #353430;
 }
 
+.page {
+  background-image: var(--image);
+}
+  @media (width >= 768px) {
+    .header__title {
+      text-shadow: 4px 4px 0px #ff0070;
+    }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --accentColor: #ff8dcb;
     --accentColorWithBackground: #353430;
     --titleColor: #ffc2e6;
-    --titleShadowColor: #ff0070;
+    --titleShadowColor: #FF8DCB;
     --textColor: #353430;
     --buttonHoverColor: #32312d66;
     --focusColor: #353430;
@@ -28,4 +37,13 @@
     --image: url('../images/cover-image-light.png');
     --decorColor: #353430;
   }
+
+  @media (width >= 768px) {
+    .header__title {
+      text-shadow: 4px 4px 0px #ff0070;
+    }
+    .page {
+      background-image: var(--image);
+    }
+}
 }
