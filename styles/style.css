@@ -1,20 +1,22 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: var(--mainFont);
-  background-color: var(--backgroundColor);
-  font-size: 18px;
+  margin: 0 auto;
   color: var(--textColor);
+  font-family: var(--mainFont);
+  font-size: 18px;
+  background-image: var(--cover-image);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--backgroundColor);
 }
 
 .header {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   min-block-size: 100vh;
-  background-image: var(--image);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   align-items: center;
 }
 
