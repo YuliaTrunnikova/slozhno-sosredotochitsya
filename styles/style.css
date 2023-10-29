@@ -185,7 +185,7 @@
 
 @media (min-width: 768px) {
   .header__second_title {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
 }
 
@@ -285,6 +285,14 @@
 
 @media (width >= 768px) {
   .section_header {
+    margin: 0;
+    min-width: 236px;
+  }
+}
+
+@media (width >= 1024px) {
+  .section_header {
+    margin: 0;
     min-width: 236px;
   }
 }
@@ -305,6 +313,7 @@
 
 .section__paragraph {
   margin-bottom: 20px;
+  line-height: 130%;
 }
 
 .section__tip {
