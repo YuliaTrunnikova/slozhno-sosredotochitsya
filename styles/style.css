@@ -202,7 +202,7 @@
 }
 
 .link {
-  text-shadow: var(--linkShadow);
+  text-shadow: 4px 4px 0px var(--accentColor);
   text-decoration: none;
 }
 
