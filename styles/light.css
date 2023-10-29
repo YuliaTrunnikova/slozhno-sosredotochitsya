@@ -8,7 +8,7 @@
   --menuColor: #353430;
   --recColor: transparent;
   --headerColor: #353430;
-  --image: url(../images/cover-image-light.png);
+  --image: url('../images/cover-image-light.png');
   --decorColor: #353430;
 }
 
@@ -23,7 +23,7 @@
     --menuColor: #353430;
     --recColor: transparent;
     --headerColor: #353430;
-    --image: url(../images/cover-image-light.png);
+    --image: url('../images/cover-image-light.png');
     --decorColor: #353430;
   }
 }
