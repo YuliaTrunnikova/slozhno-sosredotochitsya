@@ -28,3 +28,17 @@
     block-size: 9px;
   }
 }
+
+.theme_light .header__title {
+  color: var(--titleColor);
+  text-shadow: var(--boxShadow);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%;
+}
+
+.theme_light .text_with_background {
+  color: var(--textColorWithBackground);
+  background-color: var(--backgroundColor);
+}
