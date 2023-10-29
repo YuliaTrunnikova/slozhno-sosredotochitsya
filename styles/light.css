@@ -9,12 +9,12 @@
   --menuColor: #353430;
   --recColor: transparent;
   --headerColor: #353430;
-  --image: url('../images/cover-image-light.png');
+    background-image: url('../images/cover-image-light.png');
   --decorColor: #353430;
 }
 
 .page {
-  background-image: var(--image);
+  background-image: url('../images/cover-image-light.png');
 }
   @media (width >= 768px) {
     .header__title {
