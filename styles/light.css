@@ -4,21 +4,20 @@
   переключая тему
 */
 
-
 .page.theme_light {
-  --titleColor: #FFC2E6;
+  --titleColor: #ffc2e6;
   --mainColor: #353430;
   --secondaryColor: var(--mainColor);
   --textColorWithBackground: #000028;
-  --backgroundColor: #FF8DCB;
+  --backgroundColor: #ff8dcb;
   --backgroundImage: url(/images/cover-image-light.png);
-  --mainBackgroundColor: #FFF1F7;
+  --mainBackgroundColor: #fff1f7;
   --linkShadow: 4px 4px 0px var(--backgroundColor);
   .rec::before {
     content: "REC";
     color: transparent;
     line-height: 24px;
-  } 
+  }
   .rec::after {
     content: "";
     display: inline-block;
@@ -27,13 +26,5 @@
     background: transparent;
     inline-size: 9px;
     block-size: 9px;
-  }  
+  }
 }
-
-
-
- 
-  
- 
-
-
