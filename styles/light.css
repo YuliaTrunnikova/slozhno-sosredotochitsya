@@ -13,8 +13,11 @@
    --image: url('../images/cover-image-light.png');
   --decorColor: #353430;
 }
+ .header {
+  background-image: var(--image);
+ }
 
-  @media (width >= 768px) {
+  @media (width >= 1024px) {
     .header__title {
       text-shadow: 4px 4px 0px #ff0070;
     }
@@ -36,8 +39,10 @@
     --image: url('../images/cover-image-light.png');
     --decorColor: #353430;
   }
-
-  @media (width >= 768px) {
+  .header {
+    background-image: var(--image);
+   }
+  @media (width >= 1024) {
     .header__title {
       text-shadow: 4px 4px 0px #ff0070;
     }
