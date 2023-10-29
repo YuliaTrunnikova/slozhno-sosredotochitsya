@@ -3,7 +3,6 @@
 .page {
   font-family: var(--mainFont);
   background-color: var(--backgroundColor);
-  
   font-size: 18px;
   color: var(--textColor);
 }
@@ -52,7 +51,6 @@
 
 .rec {
   position: absolute;
-  z-index: -1;
   display: inline-flex;
   align-items: center;
   gap: 10px;
