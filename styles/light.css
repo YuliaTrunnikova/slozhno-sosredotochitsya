@@ -1,6 +1,7 @@
 .page.theme_light {
   --accentColor: #ff8dcb;
   --accentColorWithBackground: #353430;
+  --backgroundColor: #FFF1F7;
   --titleColor: #ffc2e6;
   --titleShadowColor: #FF8DCB;
   --textColor: #353430;
@@ -9,13 +10,10 @@
   --menuColor: #353430;
   --recColor: transparent;
   --headerColor: #353430;
-    background-image: url('../images/cover-image-light.png');
+   --image: url('../images/cover-image-light.png');
   --decorColor: #353430;
 }
 
-.page {
-  background-image: url('../images/cover-image-light.png');
-}
   @media (width >= 768px) {
     .header__title {
       text-shadow: 4px 4px 0px #ff0070;
@@ -26,6 +24,7 @@
   :root {
     --accentColor: #ff8dcb;
     --accentColorWithBackground: #353430;
+    --backgroundColor: #FFF1F7;
     --titleColor: #ffc2e6;
     --titleShadowColor: #FF8DCB;
     --textColor: #353430;
@@ -41,9 +40,6 @@
   @media (width >= 768px) {
     .header__title {
       text-shadow: 4px 4px 0px #ff0070;
-    }
-    .page {
-      background-image: var(--image);
     }
 }
 }

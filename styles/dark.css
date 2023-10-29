@@ -1,6 +1,7 @@
 .page.theme_dark {
   --accentColor: #ff0070;
   --accentColorWithBackground: #000028;
+  --backgroundColor: #000028;
   --titleColor: #db00ff;
   --titleShadowColor: #ff0070;
   --textColor: #f1b2ce;
