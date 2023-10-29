@@ -3,19 +3,18 @@
   и их переопределение под различные устройства
 */
 :root {
-  --mainFont: 'IBM Plex Mono';
-  --titleColor: #DB00FF;
-  --titleShadowColor: var(--secondaryColor);
-  --mainColor: #F1B2CE;
-  --secondaryColor: #FF0070;
-  --textColorWithBackground: #000028;
-  --backgroundColor: var(--secondaryColor);
-  --buttonHoverColor: var(--secondaryColor);
-  --mainBackgroundColor: var(--textColorWithBackground);
-  --sectionFirstHeader: var(--secondaryColor);
-  --boxShadow: 4px 4px 0px var(--titleShadowColor);
-  --linkShadow: 4px 4px 0px var(--secondaryColor);
-
+  --mainFont: 'IBM Plex mono';
+  --accentColor: #ff0070;
+  --accentColorWithBackground: #000028;
+  --titleColor: #db00ff;
+  --textColor: #f1b2ce;
+  --titleShadowColor: #ff0070;
+  --buttonHoverColor: #ff007066;
+  --focusColor: #ff0070;
+  --menuColor: #ff0070;
+  --headerColor: #ff0070;
+  --recColor: #ff0070;
+  --image: url(../images/cover-image-dark.png);
+  --decorColor: #ff0070;
   
-
-} 
+}

@@ -1,72 +1,31 @@
 .page.theme_light {
+  
+  --accentColor: #ff8dcb;
+  --accentColorWithBackground: #353430;
   --titleColor: #ffc2e6;
-  --mainColor: #353430;
-  --secondaryColor: var(--mainColor);
-  --textColorWithBackground: #000028;
-  --backgroundColor: #ff8dcb;
-  --backgroundImage: url(/images/cover-image-light.png);
-  --mainBackgroundColor: #fff1f7;
-  --linkShadow: 4px 4px 0px var(--backgroundColor);
-  
-  
-  .rec::before {
-    content: "REC";
-    color: transparent;
-    line-height: 24px;
-  }
-  .rec::after {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    box-shadow: 0 0 2px 2px transparent;
-    background: transparent;
-    inline-size: 9px;
-    block-size: 9px;
-  }
- 
+  --textColor: #353430;
+  --buttonHoverColor: #32312d66;
+  --focusColor: #353430;
+  --menuColor: #353430;
+  --recColor: transparent;
+  --headerColor: #353430;
+  --image: url(../images/cover-image-light.png);
+  --decorColor: #353430;
 }
+
 @media (prefers-color-scheme: light) {
+
   :root {
+    --accentColor: #ff8dcb;
+    --accentColorWithBackground: #353430;
     --titleColor: #ffc2e6;
-    --mainColor: #353430;
-    --secondaryColor: #ff0070;
-    --titleShadowColor: var(--secondaryColor);
-    --textColorWithBackground: #000028;
-    --backgroundImage: url(/images/cover-image-light.png);
-    --backgroundColor: #ff8dcb;
-    --mainBackgroundColor: #fff1f7;
-    --linkShadow: 4px 4px 0px var(--backgroundColor);
-    --boxShadow: 4px 4px 0px var(--secondaryColor);
-    
-  }
-
-  .page {
-    background-image: var(--backgroundImage);
-  }
-
-  .header__theme-menu-button {
-    color: var(--mainColor);
-  }
-  .header__theme-menu-button:hover {
-    color: var(--mainColor);
-  }
-
-
-
-
-  .rec::before {
-    content: "REC";
-    color: transparent;
-    line-height: 24px;
-  }
-  .rec::after {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    box-shadow: 0 0 2px 2px transparent;
-    background: transparent;
-    inline-size: 9px;
-    block-size: 9px;
+    --textColor: #353430;
+    --buttonHoverColor: #32312d66;
+    --focusColor: #353430;
+    --menuColor: #353430;
+    --recColor: transparent;
+    --headerColor: #353430;
+    --image: url(../images/cover-image-light.png);
+    --decorColor: #353430;
   }
 }
-

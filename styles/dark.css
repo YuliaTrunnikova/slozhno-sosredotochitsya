@@ -1,35 +1,14 @@
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --mainFont: "IBM Plex Mono";
-    --titleColor: #db00ff;
-    --titleShadowColor: var(--secondaryColor);
-    --mainColor: #f1b2ce;
-    --secondaryColor: #ff0070;
-    --textColorWithBackground: #000028;
-    --backgroundColor: var(--secondaryColor);
-    --buttonHoverColor: var(--secondaryColor);
-    --backgroundImage: url(/images/cover-image-dark.png);
-    --mainBackgroundColor: var(--textColorWithBackground);
-    --sectionFirstHeader: var(--secondaryColor);
-    --boxShadow: 4px 4px 0px var(--titleShadowColor);
-    --linkShadow: 4px 4px 0px var(--secondaryColor);
-  }
-}
-
 .page.theme_dark {
-  --mainFont: "IBM Plex Mono";
+  --accentColor: #ff0070;
+  --accentColorWithBackground: #000028;
   --titleColor: #db00ff;
-  --titleShadowColor: var(--secondaryColor);
-  --mainColor: #f1b2ce;
-  --secondaryColor: #ff0070;
-  --textColorWithBackground: #000028;
-  --backgroundColor: var(--secondaryColor);
-  --buttonHoverColor: var(--secondaryColor);
-  --backgroundImage: url(/images/cover-image-dark.png);
-  --mainBackgroundColor: var(--textColorWithBackground);
-  --sectionFirstHeader: var(--secondaryColor);
-  --boxShadow: 4px 4px 0px var(--titleShadowColor);
-  --linkShadow: 4px 4px 0px var(--secondaryColor);
+  --textColor: #f1b2ce;
+  --buttonHoverColor: #ff007066;
+  --headerColor: #ff0070;
+  --focusColor: #ff0070;
+  --menuColor: #ff0070;
+  --headerColor: #ff0070;
+  --recColor: #ff0070;
+  --image: url(../images/cover-image-dark.png);
+  --decorColor: #ff0070;
 }
