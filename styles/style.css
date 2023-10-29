@@ -80,7 +80,7 @@
 
 .header__theme-menu {
   justify-self: end;
-  margin: 5px 0 0;
+  
 }
 
 @media (min-width: 768px) {
@@ -191,9 +191,9 @@
 
 @media (min-width: 1024px) {
   .header__second_title {
-    margin: 0;
     padding: 0;
     max-inline-size: 491px;
+    margin-bottom: 115px;
   }
 }
 
@@ -273,7 +273,6 @@
 }
 
 .section_one {
-  gap:10px;
   display: grid;
 }
 
