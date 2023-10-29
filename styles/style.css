@@ -218,7 +218,6 @@
 
 .main__content {
   display: grid;
-  gap: 50px;
   padding: 40px 10px;
 }
 
@@ -252,11 +251,20 @@
 }
 
 .section_header {
-  color: var(--accentColor);
+  color: var(--headerColor);
+
 }
 
-.section_one_header{
-  margin-block-end: 20px;
+@media (width >= 768px) {
+  .section_header{
+  max-width: 236px;
+}
+}
+
+@media (width >= 1024px) {
+  .section_header{
+  min-width: 315px;
+}
 }
 
 .section_two_header{
@@ -309,7 +317,6 @@
 }
 
 .section__gallery {
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 @media (width >= 768px) {
