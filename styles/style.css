@@ -217,91 +217,89 @@
 }
 
 .main__content {
-  background-color: var(--mainBackgroundColor);
   display: grid;
-  padding: 0 10px;
+  gap: 50px;
+  padding: 40px 10px;
 }
 
 @media (width >= 768px) {
   .main__content {
     gap: 80px;
-    padding: 60px 20px 0;
+    padding: 60px 20px;
   }
 }
 
 .section {
   display: grid;
-}
-
-.section_two {
-  display: grid;
-}
-
-.section__second_header {
-  margin-bottom: 10px;
-}
-
-
-@media (width >= 768px) {
-  .section {
-    grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
-  }
-  .section_two_list {
-    grid-column-start: span 2;
-  }
-}
-@media (width >= 1024px) {
-  .section {
-    column-gap: 30px;
-  }
-  .section_two_list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.section_one {
-  display: grid;
-}
-
-.section_header {
-  color: var(--headerColor);
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-@media (width >= 768px) {
-  .section_header {
-    margin: 0;
-    width: 236px;
-  }
-}
-
-.section_one_list {
-  display: grid;
   gap: 20px;
 }
 
 @media (width >= 768px) {
-  .section_one {
+  .section{
     grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
   }
 }
 
-.section__paragraph {
-  margin-bottom: 20px;
-  line-height: 130%;
+@media (width >= 1024px) {
+  .section{
+    column-gap: 30px;
+  }
 }
 
-.section__paragraph:last-child {
-  margin-bottom: 10px;
+.section__article {
+  display: grid;
+  gap: 10px;
+}
+
+.section_header {
+  color: var(--accentColor);
+}
+
+.section_one_header{
+  margin-block-end: 20px;
+}
+
+.section_two_header{
+  margin-block-end: 20px;
+}
+
+.section_list {
+  display: grid;
+  gap: 20px;
+}
+
+.section_one_list {
+    grid-column-start: 2;
+  }
+
+  @media (width >= 768px) {
+  .section_two_list {
+    grid-column-start: span 2;
+  }
+}
+
+@media (width >= 1024px) {
+  .section_two_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 768px) {
+  .section_three_list {
+    grid-column-start: 2;
+  }
 }
 
 .section__tip {
-  margin-bottom: 10px;
   font-weight: 400;
+  margin: 20px 0 10px;
 }
 
+.section_one p {
+  margin-bottom: 20px;
+}
+
+/* //НИЖЕ НЕ ТРОГАТЬ// */
 .section__image {
   display: block;
   object-fit: cover;
