@@ -29,16 +29,29 @@
   }
 }
 
-.theme_light .header__title {
-  color: var(--titleColor);
-  text-shadow: var(--boxShadow);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 82.5%;
-}
-
-.theme_light .text_with_background {
-  color: var(--textColorWithBackground);
-  background-color: var(--backgroundColor);
+@media (prefers-color-scheme: light) {
+  :root {
+    --titleColor: #ffc2e6;
+    --mainColor: #353430;
+    --secondaryColor: var(--mainColor);
+    --textColorWithBackground: #000028;
+    --backgroundColor: #ff8dcb;
+    --backgroundImage: url(/images/cover-image-light.png);
+    --mainBackgroundColor: #fff1f7;
+    --linkShadow: 4px 4px 0px var(--backgroundColor);
+  }
+  .rec::before {
+    content: "REC";
+    color: transparent;
+    line-height: 24px;
+  }
+  .rec::after {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px transparent;
+    background: transparent;
+    inline-size: 9px;
+    block-size: 9px;
+  }
 }
