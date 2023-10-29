@@ -34,8 +34,6 @@
   block-size: 25px;
 }
 
-
-
 .decorated-zone::before {
   border-inline-end: 1px solid var(--decorColor);
   border-block-start: 1px solid var(--decorColor);
@@ -138,7 +136,7 @@
 
 .header__title {
   color: var(--titleColor);
-  text-shadow: 4px 4px 0px var(--titleShadowColor);;
+  text-shadow: 4px 4px 0px var(--titleShadowColor);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-style: normal;
   font-weight: 700;
@@ -203,7 +201,6 @@
   display: grid;
   gap: 20px;
 }
-
 
 @media (width >= 768px) {
   .section {
