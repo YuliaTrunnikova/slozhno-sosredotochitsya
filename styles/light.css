@@ -2,6 +2,7 @@
   --accentColor: #ff8dcb;
   --accentColorWithBackground: #353430;
   --titleColor: #ffc2e6;
+  --titleShadowColor: #ff0070;
   --textColor: #353430;
   --buttonHoverColor: #32312d66;
   --focusColor: #353430;
@@ -17,6 +18,7 @@
     --accentColor: #ff8dcb;
     --accentColorWithBackground: #353430;
     --titleColor: #ffc2e6;
+    --titleShadowColor: #ff0070;
     --textColor: #353430;
     --buttonHoverColor: #32312d66;
     --focusColor: #353430;
