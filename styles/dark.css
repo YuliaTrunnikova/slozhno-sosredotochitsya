@@ -1,18 +1,4 @@
-.page.theme_dark {
-  --mainFont: "IBM Plex Mono";
-  --titleColor: #db00ff;
-  --titleShadowColor: var(--secondaryColor);
-  --mainColor: #f1b2ce;
-  --secondaryColor: #ff0070;
-  --textColorWithBackground: #000028;
-  --backgroundColor: var(--secondaryColor);
-  --buttonHoverColor: var(--secondaryColor);
-  --backgroundImage: url(/images/cover-image-dark.png);
-  --mainBackgroundColor: var(--textColorWithBackground);
-  --sectionFirstHeader: var(--secondaryColor);
-  --boxShadow: 4px 4px 0px var(--titleShadowColor);
-  --linkShadow: 4px 4px 0px var(--secondaryColor);
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,4 +16,20 @@
     --boxShadow: 4px 4px 0px var(--titleShadowColor);
     --linkShadow: 4px 4px 0px var(--secondaryColor);
   }
+}
+
+.page.theme_dark {
+  --mainFont: "IBM Plex Mono";
+  --titleColor: #db00ff;
+  --titleShadowColor: var(--secondaryColor);
+  --mainColor: #f1b2ce;
+  --secondaryColor: #ff0070;
+  --textColorWithBackground: #000028;
+  --backgroundColor: var(--secondaryColor);
+  --buttonHoverColor: var(--secondaryColor);
+  --backgroundImage: url(/images/cover-image-dark.png);
+  --mainBackgroundColor: var(--textColorWithBackground);
+  --sectionFirstHeader: var(--secondaryColor);
+  --boxShadow: 4px 4px 0px var(--titleShadowColor);
+  --linkShadow: 4px 4px 0px var(--secondaryColor);
 }
