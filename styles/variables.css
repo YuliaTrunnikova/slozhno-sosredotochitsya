@@ -2,3 +2,21 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --mainFont: 'IBM Plex Mono';
+  --titleColor: #DB00FF;
+  --titleShadowColor: var(--secondaryColor);
+  --mainColor: #F1B2CE;
+  --secondaryColor: #FF0070;
+  --textColorWithBackground: #000028;
+  --backgroundColor: var(--secondaryColor);
+  --buttonHoverColor: var(--secondaryColor);
+  --backgroundImage: url(/images/cover-image-dark.png);
+  --mainBackgroundColor: var(--textColorWithBackground);
+  --sectionFirstHeader: var(--secondaryColor);
+  --boxShadow: 4px 4px 0px var(--titleShadowColor);
+  --linkShadow: 4px 4px 0px var(--secondaryColor);
+
+  
+
+} 
