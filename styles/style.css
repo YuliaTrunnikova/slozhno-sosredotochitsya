@@ -16,7 +16,7 @@
 .header {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
+  block-size: 100vh;
   min-height: 668px;
   align-items: center;
 }
@@ -354,7 +354,7 @@
 
 .footer {
   display: grid;
-  min-block-size: 100vh;
+  block-size: 100vh;
   min-height: 668px;
   justify-items: center;
   align-items: center;
