@@ -48,7 +48,7 @@
 }
 
 .rec {
-  color: var(--accentColor);
+  color: var(--recColor);
   position: absolute;
   display: inline-flex;
   align-items: center;
@@ -241,6 +241,12 @@
   margin-bottom: 0;
 }
 
+@media (width >= 1024px) {
+  .section_one .section_paragraph:last-child {
+    margin-bottom: 20px;
+  }
+}
+
 .section_header {
   color: var(--headerColor);
   margin-top: 40px;
@@ -262,11 +268,6 @@
 
 .section_two_header {
   margin-block-end: 20px;
-}
-
-.section_list {
-  display: grid;
-  gap: 20px;
 }
 
 .section_one_list {
