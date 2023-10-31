@@ -3,7 +3,7 @@
 .page {
   margin: 0 auto;
   color: var(--textColor);
-  font-family: var(--mainFont);
+  font-family: var(--mainFont, monospace);
   font-size: 18px;
   background-image: var(--cover-image);
   background-repeat: no-repeat;
@@ -17,6 +17,7 @@
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   min-block-size: 100vh;
+  min-height: 668px;
   align-items: center;
 }
 
@@ -47,6 +48,7 @@
 }
 
 .rec {
+  color: var(--accentColor);
   position: absolute;
   display: inline-flex;
   align-items: center;
@@ -60,12 +62,6 @@
     inset-inline-end: 28px;
     inset-block-start: 20px;
   }
-}
-
-.rec::before {
-  content: "REC";
-  color: var(--recColor);
-  line-height: 24px;
 }
 
 .rec::after {
@@ -245,9 +241,8 @@
   }
 }
 
-.section__article {
-  display: grid;
-  gap: 10px;
+.section_one .section_paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .section_header {
@@ -264,7 +259,7 @@
 
 @media (width >= 1024px) {
   .section_header {
-    min-width: 315px;
+    max-width: 315px;
   }
 }
 
@@ -299,16 +294,19 @@
   }
 }
 
+.section__second_header {
+  margin-bottom: 10px;
+}
+
 .section__tip {
   font-weight: 400;
   margin: 20px 0 10px;
 }
 
-.section_one p {
+.section_paragraph {
   margin-bottom: 20px;
 }
 
-/* //НИЖЕ НЕ ТРОГАТЬ// */
 .section__image {
   display: block;
   object-fit: cover;
@@ -325,7 +323,7 @@
   .section__gallery {
     grid-template-columns: 1fr;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 60px;
   }
 
@@ -349,6 +347,7 @@
 .footer {
   display: grid;
   min-block-size: 100vh;
+  min-height: 668px;
   justify-items: center;
   align-items: center;
   background-color: var(--mainBackgroundColor);
