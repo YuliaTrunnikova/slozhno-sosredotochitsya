@@ -173,7 +173,6 @@
 }
 .header__second_title {
   justify-self: end;
-  padding-right: 50px;
   max-inline-size: 364px;
   font-weight: 700;
 }
@@ -192,7 +191,7 @@
 }
 
 .link {
-  text-shadow: 3px 2px 0px var(--accentColor);
+  text-shadow: 1px 1px 0px var(--accentColor);
   text-decoration: none;
 }
 
