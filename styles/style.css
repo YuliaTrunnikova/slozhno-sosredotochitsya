@@ -157,7 +157,6 @@
 }
 
 .header__title {
-  margin: 15px 0 0;
   color: var(--titleColor);
   text-shadow: 4px 4px 0px var(--titleShadowColor);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -169,7 +168,7 @@
 @media (min-width: 768px) {
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin: 20px 0 0 -20px;
+    margin-left: 20px;
   }
 }
 
